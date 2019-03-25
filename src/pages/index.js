@@ -1,20 +1,25 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
-import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div style={{ width: `100%`, maxWidth: `600px`, margin: `0 auto`, height: `auto`, textAlign: `center`, marginBottom: `1.45rem` }}>
+      <p style={{ color: `#1ac6ff`, textAlign: `center` }}>The plate that (literally) adds spice to your life</p>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div style={{ textAlign: `center` }}>
+      <div style={{ marginBottom: `20px` }}>
+        "This plate has changed my life!" - Maura H., Austin, Texas
+      </div>
+      <div style={{ marginBottom: `20px` }}>
+        "I love every single meal I eat now -- And I'm a graduate student with no budget!" - Amanda K., Hong Kong, China
+      </div>
+      <div style={{ marginBottom: `20px` }}>
+        "My wife has never been impressed with my cooking. Now she loves it!" - Frank M., Boston, MA
+      </div>
+    </div>
   </Layout>
 )
 
