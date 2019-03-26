@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 const CTASpan = styled("span")`
    margin-right: 10px;
@@ -23,7 +24,7 @@ const OurStoryPage = () => (
       <p style={{ textAlign: `center` }}>Your plate cleans itself!</p>
       <p style={{ textAlign: `center` }}>Your data is protected!</p>
       <p style={{ textAlign: `center` }}>NEVER DO THE DISHES AGAIN!!!</p>
-      <p style={{ textAlign: `center` }}><CTASpan>BUY NOW!!!</CTASpan><CTASpan>BUY NOW!!!</CTASpan><CTASpan>BUY NOW!!!</CTASpan></p>
+      <p style={{ textAlign: `center` }}><Link to="/shop/"><CTASpan>BUY NOW!!!</CTASpan><CTASpan>BUY NOW!!!</CTASpan><CTASpan>BUY NOW!!!</CTASpan></Link></p>
     </Layout>
   )
 
