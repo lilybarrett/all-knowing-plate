@@ -31,7 +31,7 @@ const TextSpan = styled("span")`
 const AboutPage = () => (
     <Layout>
         <Wrapper>
-            <p><TextSpan>Bad cook? <HighlightedPhrase>No problem!</HighlightedPhrase> Serve meals on these plates and you'll leave your guests raving about your skill. <HighlightedPhrase>Be our guest!</HighlightedPhrase></TextSpan></p>
+            <p><TextSpan>Bad cook? <HighlightedPhrase>No problem!</HighlightedPhrase> Serve meals on these plates and you'll leave your guests -- and maybe even yourself -- marveling over your skill. <HighlightedPhrase>Be our guest!</HighlightedPhrase></TextSpan></p>
             <ul>
                 <LineItem>
                     <IconSpan><FaUtensilSpoon /></IconSpan><TextSpan>Our technogically advanced plates use <HighlightedPhrase>visual cues</HighlightedPhrase>, <HighlightedPhrase>sensory hints</HighlightedPhrase>, and the <HighlightedPhrase>rate of a guest's chewing</HighlightedPhrase> to instantaneously discern responses to food</TextSpan>
