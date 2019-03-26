@@ -17,6 +17,7 @@ const CTASpan = styled("span")`
 const Intro = styled("p")`
    margin: 30px 0;
    text-align: center;
+   font-size: 25px;
 `;
 
 const Paragraph = styled("p")`
@@ -30,6 +31,7 @@ const Paragraph = styled("p")`
 
 const SubHeader = styled("h3")`
    text-align: center;
+   margin-top: 30px;
 `;
 
 const Wrapper = styled("div")`

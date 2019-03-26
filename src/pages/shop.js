@@ -6,6 +6,8 @@ import styled from "styled-components";
 const OutOfStock = styled("p")`
    text-align: center;
    padding: 30px;
+   font-size: 25px;
+   color: orange;
 `;
 
 const ShopPage = () => (

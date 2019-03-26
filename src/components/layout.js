@@ -1,28 +1,10 @@
 import React from "react";
-import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 import Header from "./header";
 import Helmet from "react-helmet";
-
-const StyledNavbar = styled("nav")`
-  position: relative;
-  background-color: #1ac6ff;
-  display: flex;
-  padding: 30px;
-  align-items: center;
-  justify-content: space-between;
-`;
-
-const StyledNavLink = styled(Link)`
-  padding: 10px;
-  border: 1px solid orange;
-  color: white;
-  margin-right: 30px;
-  text-decoration: none;
-  text-align: center;
-`;
+import Nav from "./nav";
 
 const Container = styled.div`
   margin: 3rem auto;
@@ -49,12 +31,7 @@ const Layout = ({ children }) => (
           <link rel="icon" href="https://target.scene7.com/is/image/Target/GUEST_abef9ab3-3c6b-44fb-93c0-03421d838f5f?wid=488&hei=488&fmt=pjpeg"></link>
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <StyledNavbar>
-          <StyledNavLink to="/about/">How It Works</StyledNavLink>
-          <StyledNavLink to="/demo">Video</StyledNavLink>
-          <StyledNavLink to="/our-story/">About</StyledNavLink>
-          <StyledNavLink to="/shop/">Shop</StyledNavLink>
-        </StyledNavbar>
+        <Nav />
         <div
           style={{
             padding: `0px 1.0875rem 1.45rem`,

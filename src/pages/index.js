@@ -35,6 +35,7 @@ const SubtitleWrapper = styled("div")`
 
 const Subtitle = styled("p")`
   color: orange;
+  font-size: 25px;
   text-align: center;
 `;
 
