@@ -12,7 +12,7 @@ const StyledNavbar = styled("nav")`
   display: flex;
   padding: 30px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 `;
 
 const StyledNavLink = styled(Link)`
