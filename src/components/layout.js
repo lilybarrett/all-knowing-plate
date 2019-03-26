@@ -1,10 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
-import styled from "styled-components"
-import Header from "./header"
-import Helmet from "react-helmet"
+import React from "react";
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
+import styled from "styled-components";
+import Header from "./header";
+import Helmet from "react-helmet";
 
 const Navbar = styled.nav`
   position: relative;
@@ -23,7 +23,7 @@ const NavLink = styled(Link)`
 const Container = styled.div`
   margin: 3rem auto;
   font-family: 'Josefin Sans', sans-serif;
-`
+`;
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -61,10 +61,11 @@ const Layout = ({ children }) => (
       </Container>
     )}
   />
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;
+
