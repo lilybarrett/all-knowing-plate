@@ -17,7 +17,7 @@ const AboutPage = () => (
                 Enhances sweetness, saltiness, or any other flavor that the user craves
             </li>
             <li>
-                Deletes data when they sense the guest is done with his or her meal. Magic Plate does not store any private information about guests' food preferences.
+                Deletes data when they sense the guest is done with his or her meal.  The All-Knowing Plate does not store any private information about guests' food preferences.
             </li>
         </ul>
     </Layout>

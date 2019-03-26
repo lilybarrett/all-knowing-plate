@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 
 const OurStoryPage = () => (
     <Layout>
-       <p style={{ textAlign: `center` }}>Lily and Rivka started Magic Plate last week!</p>
+       <p style={{ textAlign: `center` }}>Lily and Rivka created the All-Knowing Plate last week!</p>
     </Layout>
   )
 

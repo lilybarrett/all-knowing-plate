@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Magic Plate`,
+    title: `All Knowing Plate`,
     description: `Bad cook? No problem. Be our guest!`,
     author: `@gatsbyjs`,
   },
