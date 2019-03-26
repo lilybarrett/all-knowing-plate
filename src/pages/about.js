@@ -16,16 +16,16 @@ const AboutPage = () => (
         <p>Bad cook? <HighlightedPhrase>No problem!</HighlightedPhrase> Serve meals on these plates and you'll leave your guests raving about your skill. <HighlightedPhrase>Be our guest!</HighlightedPhrase></p>
         <ul>
             <LineItem>
-                Use <HighlightedPhrase>visual cues</HighlightedPhrase>, <HighlightedPhrase>sensory hints</HighlightedPhrase>, and the <HighlightedPhrase>rate of a guest's chewing</HighlightedPhrase> to discern responses to food
+                Our technogically advanced plates use <HighlightedPhrase>visual cues</HighlightedPhrase>, <HighlightedPhrase>sensory hints</HighlightedPhrase>, and the <HighlightedPhrase>rate of a guest's chewing</HighlightedPhrase> to instantaneously discern responses to food
             </LineItem>
             <LineItem>
-                Based on what the guest craves, enhances food's <HighlightedPhrase>sweetness,</HighlightedPhrase> <HighlightedPhrase>saltiness</HighlightedPhrase>, <HighlightedPhrase>sourness</HighlightedPhrase>, <HighlightedPhrase>umami</HighlightedPhrase>, or other flavors detected as desired 
+                Based on what the guest craves, our plates enhance a food's <HighlightedPhrase>sweetness,</HighlightedPhrase> <HighlightedPhrase>saltiness</HighlightedPhrase>, <HighlightedPhrase>sourness</HighlightedPhrase>, <HighlightedPhrase>umami</HighlightedPhrase>, or other desired flavors 
             </LineItem>
             <LineItem>
-                <HighlightedPhrase>Deletes data</HighlightedPhrase> when they sense the guest is done with his or her meal.  The All-Knowing Plate does not store any private information about guests' food preferences.
+                <HighlightedPhrase>Our plates delete data</HighlightedPhrase> when they sense the guest is done with his or her meal. The All-Knowing Plate never stores any private information about guests' food preferences, unless it's with our powerful and financially generous partners. Your brussels sprouts addiction is safe with us.
             </LineItem>
              <LineItem>
-                <HighlightedPhrase>Self-cleaning</HighlightedPhrase>
+                The best part: Our plates are <HighlightedPhrase>self-cleaning</HighlightedPhrase>. Never do the dishes again!
             </LineItem>
         </ul>
         <Image filename="spoons.jpg" />
