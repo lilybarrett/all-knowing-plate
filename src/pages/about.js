@@ -5,7 +5,7 @@ import Image from "../components/image"
 const AboutPage = () => (
     <Layout>
         <p>Bad cook? No problem! Serve your guests meals on these plates and you'll leave them raving about your skill. Be our guest!</p>
-        {/* <Image url="spoons.jpg" /> */}
+        <Image filename="magic_plate.jpg" />
         <ul>
             <li>
                 Self-cleaning

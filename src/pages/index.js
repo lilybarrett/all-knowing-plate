@@ -7,7 +7,7 @@ const IndexPage = () => (
   <Layout>
     <div style={{ width: `100%`, maxWidth: `600px`, margin: `0 auto`, height: `auto`, textAlign: `center`, marginBottom: `1.45rem` }}>
       <p style={{ color: `#1ac6ff`, textAlign: `center` }}>The plate that (literally) adds spice to your life</p>
-      <Image />
+      <Image filename="spoons.jpg" />
     </div>
     <div style={{ textAlign: `center` }}>
       <div style={{ marginBottom: `20px` }}>
