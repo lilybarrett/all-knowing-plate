@@ -1,25 +1,30 @@
 import React from "react"
 import Layout from "../components/layout"
 import Image from "../components/image"
+import styled from "styled-components"
+
+const HighlightedPhrase = styled("span")`
+    color: orange;
+`;
 
 const AboutPage = () => (
     <Layout>
-        <p>Bad cook? No problem! Serve your guests meals on these plates and you'll leave them raving about your skill. Be our guest!</p>
-        <Image filename="magic_plate.jpg" />
+        <p>Bad cook? <HighlightedPhrase>No problem!</HighlightedPhrase> Serve meals on these plates and you'll leave your guests raving about your skill. <HighlightedPhrase>Be our guest!</HighlightedPhrase></p>
         <ul>
             <li>
-                Self-cleaning
+                Use <HighlightedPhrase>visual cues</HighlightedPhrase>, <HighlightedPhrase>sensory hints</HighlightedPhrase>, and the <HighlightedPhrase>rate of a guest's chewing</HighlightedPhrase> to discern responses to food
             </li>
             <li>
-                Use visual cues, sensory hints, and the rate of a guest's chewing to discern responses to food
+                Based on what the guest craves, enhances food's <HighlightedPhrase>sweetness,</HighlightedPhrase> <HighlightedPhrase>saltiness</HighlightedPhrase>, <HighlightedPhrase>sourness</HighlightedPhrase>, <HighlightedPhrase>umami</HighlightedPhrase>, or other flavors detected as desired 
             </li>
             <li>
-                Enhances sweetness, saltiness, or any other flavor that the user craves
+                <HighlightedPhrase>Deletes data</HighlightedPhrase> when they sense the guest is done with his or her meal.  The All-Knowing Plate does not store any private information about guests' food preferences.
             </li>
-            <li>
-                Deletes data when they sense the guest is done with his or her meal.  The All-Knowing Plate does not store any private information about guests' food preferences.
+             <li>
+                <HighlightedPhrase>Self-cleaning</HighlightedPhrase>
             </li>
         </ul>
+        <Image filename="spoons.jpg" />
     </Layout>
   )
 

@@ -31,6 +31,7 @@ const Image = (props) => (
       const imageSizes = image.node.childImageSharp.sizes;
       return (
         <Img
+          style={{ maxWidth: `600px`, height: `auto`, margin: `0 auto` }}
           alt={props.alt}
           sizes={imageSizes}
         />
