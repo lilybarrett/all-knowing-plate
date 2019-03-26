@@ -68,7 +68,7 @@ const OurStoryPage = () => (
          <Paragraph>That’s when we started brainstorming and the
             concept of the <HighlightedPhrase>All-Knowing Plate</HighlightedPhrase> was born!
          </Paragraph>
-         <Paragraph>Imagine a plate…with sensors inside it that make your taste buds <HighlightedPhrase>tingle.</HighlightedPhrase> The All-Knowing Plate -- <HighlightedPhrase>the plate that knows!</HighlightedPhrase></Paragraph>
+         <Paragraph>Imagine a plate with sensors inside it that make your taste buds <HighlightedPhrase>tingle.</HighlightedPhrase> The All-Knowing Plate -- <HighlightedPhrase>the plate that knows!</HighlightedPhrase></Paragraph>
          <SellingPoint>Food tastes better than ever!</SellingPoint>
          <SellingPoint>Your plate cleans itself! NEVER DO THE DISHES AGAIN!</SellingPoint>
          <SellingPoint>Your data is protected (except when our powerful and financially generous partners need it!)</SellingPoint>
