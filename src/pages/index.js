@@ -10,6 +10,12 @@ const TestimonialSpan = styled("span")`
 `;
 
 const TestimonialBlock = styled("div")`
+  background-color: #1ac6ff;
+  padding: 15px;
+  color: white;
+  box-shadow: 0 0 4px 1px orange;
+  max-width: 700px;
+  margin: auto;
   margin-bottom: 20px;
 `;
 
@@ -28,7 +34,7 @@ const SubtitleWrapper = styled("div")`
 `;
 
 const Subtitle = styled("p")`
-  color: #1ac6ff;
+  color: orange;
   text-align: center;
 `;
 

@@ -6,18 +6,22 @@ import styled from "styled-components";
 import Header from "./header";
 import Helmet from "react-helmet";
 
-const Navbar = styled.nav`
+const StyledNavbar = styled("nav")`
   position: relative;
   background-color: #1ac6ff;
   display: flex;
+  padding: 30px;
   align-items: center;
   justify-content: center;
 `;
 
-const NavLink = styled(Link)`
-  padding: 5px;
+const StyledNavLink = styled(Link)`
+  padding: 10px;
+  border: 1px solid orange;
   color: white;
+  margin-right: 30px;
   text-decoration: none;
+  text-align: center;
 `;
 
 const Container = styled.div`
@@ -45,12 +49,12 @@ const Layout = ({ children }) => (
           <link rel="icon" href="https://target.scene7.com/is/image/Target/GUEST_abef9ab3-3c6b-44fb-93c0-03421d838f5f?wid=488&hei=488&fmt=pjpeg"></link>
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Navbar>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about/">About</NavLink>
-          <NavLink to="/our-story/">Our Story</NavLink>
-          <NavLink to="/shop/">Shop</NavLink>
-        </Navbar>
+        <StyledNavbar>
+          <StyledNavLink to="/">Home</StyledNavLink>
+          <StyledNavLink to="/about/">About</StyledNavLink>
+          <StyledNavLink to="/our-story/">Our Story</StyledNavLink>
+          <StyledNavLink to="/shop/">Shop</StyledNavLink>
+        </StyledNavbar>
         <div
           style={{
             padding: `0px 1.0875rem 1.45rem`,

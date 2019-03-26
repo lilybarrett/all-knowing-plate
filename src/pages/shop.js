@@ -5,11 +5,12 @@ import styled from "styled-components";
 
 const OutOfStock = styled("p")`
    text-align: center;
+   padding: 30px;
 `;
 
 const ShopPage = () => (
     <Layout>
-       <OutOfStock>Oops! We are all out of stock due to extreme interest! Please check back later.</OutOfStock>
+       <OutOfStock>Oops! We are all out of stock due to high interest! Please check back later.</OutOfStock>
        <Image filename="out-of-stock.jpg" />
     </Layout>
   );
