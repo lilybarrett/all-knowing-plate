@@ -50,9 +50,9 @@ const Layout = ({ children }) => (
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <StyledNavbar>
-          <StyledNavLink to="/">Home</StyledNavLink>
-          <StyledNavLink to="/about/">About</StyledNavLink>
-          <StyledNavLink to="/our-story/">Our Story</StyledNavLink>
+          <StyledNavLink to="/about/">How It Works</StyledNavLink>
+          <StyledNavLink to="/demo">Video</StyledNavLink>
+          <StyledNavLink to="/our-story/">About</StyledNavLink>
           <StyledNavLink to="/shop/">Shop</StyledNavLink>
         </StyledNavbar>
         <div
