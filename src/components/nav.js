@@ -67,6 +67,9 @@ class MyNavbar extends React.Component {
                     <StyledNavLink to="/">Home</StyledNavLink>
                 </NavItem>
                 <NavItem>
+                    <StyledNavLink to="/about">How It Works</StyledNavLink>
+                </NavItem>
+                <NavItem>
                   <StyledNavLink to="/demo">Video</StyledNavLink>
                 </NavItem>
                 <NavItem>
