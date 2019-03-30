@@ -40,7 +40,7 @@ const AboutPage = () => (
                     <IconSpan><MdSentimentSatisfied /></IconSpan><TextSpan>Based on what the guest craves, our plates enhance a food's <HighlightedPhrase>sweetness,</HighlightedPhrase> <HighlightedPhrase>saltiness</HighlightedPhrase>, <HighlightedPhrase>sourness</HighlightedPhrase>, <HighlightedPhrase>umami</HighlightedPhrase>, or other desired flavors</TextSpan>
                 </LineItem>
                 <LineItem>
-                    <IconSpan><MdDataUsage /></IconSpan><TextSpan><HighlightedPhrase>Our plates delete data</HighlightedPhrase> when they sense the guest is done with his or her meal. The All-Knowing Plate never stores or shares any private information about guests' food preferences, unless it's with our powerful and financially generous partners.</TextSpan>
+                    <IconSpan><MdDataUsage /></IconSpan><TextSpan><HighlightedPhrase>Our plates delete data</HighlightedPhrase> when they sense the guest is done with his or her meal. The All Knowing Plate never stores or shares any private information about guests' food preferences, unless it's with our powerful and financially generous partners.</TextSpan>
                 </LineItem>
                 <LineItem>
                     <IconSpan><FaRegGrinHearts /></IconSpan><TextSpan>The best part: Our plates are <HighlightedPhrase>self-cleaning</HighlightedPhrase>. Never do the dishes again!</TextSpan>

@@ -27,6 +27,21 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: `@gatsby-contrib/gatsby-remark-link-youtube`,
+            options: {
+              width: 768,
+              className: `center`,
+              title: `Cliquer pour voir la vidéo sur youtube.com`,
+            },
+          },
+        ],
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',

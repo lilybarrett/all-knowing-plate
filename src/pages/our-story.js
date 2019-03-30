@@ -68,7 +68,7 @@ const OurStoryPage = () => (
             If only our food could taste scrumptious all the time! If only we could accommodate different people's desires for spicier, sweeter, or saltier food! If only we could spread the love of food to everyone. Food brings people together; There's nothing like bonding over a meal that everyone enjoys.
          </Paragraph>
          <Paragraph>That’s when we started brainstorming and the
-            concept of the <HighlightedPhrase>All-Knowing Plate</HighlightedPhrase> was born!
+            concept of the <HighlightedPhrase>All Knowing Plate</HighlightedPhrase> was born!
          </Paragraph>
          <Paragraph>Imagine a plate with sensors inside it that make your taste buds <HighlightedPhrase>tingle.</HighlightedPhrase> The All-Knowing Plate -- <HighlightedPhrase>the plate that knows!</HighlightedPhrase></Paragraph>
          <SellingPoint>Food tastes better than ever!</SellingPoint>
