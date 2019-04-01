@@ -54,13 +54,13 @@ class SimpleSlider extends React.Component {
     return (
       <Slider {...settings}>
         <div>
+          <Image filename="dinner-party.jpg" />
+        </div>
+        <div>
           <Image filename="magic_plate.jpg" />
         </div>
         <div>
           <Image filename="pancakes.jpg" />
-        </div>
-        <div>
-          <Image filename="dinner-party.jpg" />
         </div>
         <div>
           <Image filename="salad-plate.jpg" />
